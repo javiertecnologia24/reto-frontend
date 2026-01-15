@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Componentes reutilizables */
+.input {
+@apply border border-gray-300 rounded p-2 w-full;
+}
+.btn {
+@apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700;
+}
+.btn-danger {
+@apply bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700;
+}
